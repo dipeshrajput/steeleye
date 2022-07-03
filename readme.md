@@ -288,8 +288,8 @@ curl -X 'GET' \
 Trade Object has following fields:
 | Field | Type | Description |
 | --- | --- | --- |
-| ```assetClass``` | String | (Mandatory) Asset class of the trade |
-| ```counterparty``` | String | (Mandatory) Counterparty of the trade |
+| ```assetClass``` | String | (Optional) Asset class of the trade |
+| ```counterparty``` | String | (Optional) Counterparty of the trade |
 | ```instrumentId``` | String | (Mandatory) Instrument ID of the trade |
 | ```instrumentName``` | String | (Mandatory) Instrument name of the trade |
 | ```tradeDateTime``` | String | (Mandatory) Date and time of the trade |
