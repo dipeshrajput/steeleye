@@ -32,7 +32,7 @@ List all trades
 | ```page``` | Integer | (OnSuccess - String) Page number out of the total pages separated by ```/``` |
 | ```page_rate``` | Integer | (OnSuccess) Items per page |
 | ```total_trades``` | Integer | (OnSuccess) Total number of trades |
-| ```trades``` | Array | (OnSuccess) List of trades (Refer ```Trade Object Details``` for more details) |
+| ```trades``` | Array | (OnSuccess) List of trades (Refer [```Trade Object Details```](#trade-object-details) for more details) |
 | ```message``` | String | (OnFailure - String) Error message |
 | ```sortbyReceived``` | String | (OnFailure - String) If wrong sortby parameter is passed, this will be the sortby parameter received |
 | ```sortbyList``` | Array | (OnFailure - Array) List of sortby parameters accepted
@@ -100,7 +100,7 @@ Get a single trade by tradeId
 | Field | Type | Description |
 | --------- | ---- | ----------- |
 | ```status``` | String | (Mandatory) Status of the request (```success``` or ```failure```) |
-| ```trade``` | TradeDetails | (OnSuccess) Result trade (Refer ```Trade Object Details``` for more details) |
+| ```trade``` | TradeDetails | (OnSuccess) Result trade (Refer [```Trade Object Details```](#trade-object-details) for more details) |
 | ```message``` | String | (OnFailure - String) Error message |
 
 #### Demo Request:
@@ -159,7 +159,7 @@ Query will be applied for followig fields:
 | ```page``` | String | (OnSuccess) Page number out of the total pages separated by ```/``` |
 | ```page_rate``` | Integer | (OnSuccess) Items per page |
 | ```total_trades``` | Integer | (OnSuccess) Total number of trades |
-| ```trades``` | Array | (OnSuccess) List of trades (Refer ```Trade Object Details``` for more details) |
+| ```trades``` | Array | (OnSuccess) List of trades (Refer [```Trade Object Details```](#trade-object-details) for more details) |
 | ```message``` | String | (OnFailure) Error message |
 | ```sortbyReceived``` | String | (OnFailure) If wrong sortby parameter is passed, this will be the sortby parameter received |
 | ```sortbyList``` | Array | (OnFailure) List of sortby parameters accepted  |
@@ -231,7 +231,7 @@ Query will be applied for following fields
 | ```page``` | String | (OnSuccess) Page number out of the total pages separated by ```/``` |
 | ```page_rate``` | Integer | (OnSuccess) Items per page |
 | ```total_trades``` | Integer | (OnSuccess) Total number of trades |
-| ```trades``` | Array | (OnSuccess) List of filtered trades (Refer ```Trade Object Details``` for more details) |
+| ```trades``` | Array | (OnSuccess) List of filtered trades (Refer [```Trade Object Details```](#trade-object-details) for more details) |
 | ```message``` | String | (OnFailure) Error message |
 | ```sortbyReceived``` | String | (OnFailure) If wrong sortby parameter is passed, this will be the sortby parameter received |
 | ```sortbyList``` | Array | (OnFailure) List of sortby parameters accepted  |
